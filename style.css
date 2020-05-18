@@ -3,24 +3,37 @@ table, th, td{
 	border: 1px solid black;
 }
 */
+.im{
+	margin-left: 39%;
+ 	margin-right: auto
+}
+h2{
+
+	color: white;
+}
+.h12{/*#66c2ff*/
+	text-align: center;
+
+}
 
 .card-4{
 	box-shadow:0 4px 10px 0 
 	rgba(0,0,0,0.2),0 4px 20px 0 
 	rgba(0,0,0,0.19)
+
 }
 
 .cont{
-	padding:0.01em 16px
-	margin-top:16px;
-	margin-bottom:16px
+
 	color:#fff!important;
 	background-color:#795548!important
 }
 
 label{
 	color:#795548!important;
-	
+	font-size: 130%;
+	font-weight: bold;
+
 }
 
 input{
@@ -76,10 +89,27 @@ button:hover{
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #4CAF50;
+  background-color: #795548;
   color: white;
 }
-
+.labels{
+	margin-left: 2%
+}
+.but{
+	margin-left: 2%
+}
+#stor{
+	font-size: 105%
+}
+#view{
+	font-size: 105%
+}
+#reset{
+	font-size: 105%
+}
+#clD{
+	font-size: 105%
+}
 /*test*/
 /*test*/
 /*test*/

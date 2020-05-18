@@ -98,7 +98,7 @@ view.click (function(){
 	var tr = $("<tr></tr>");
 	tbl.append(tr);
 
-	var th = $("<th>Employee</th> <th>Salary</th><th>200</th> <th>100</th> <th>50</th> <th>20</th> <th>10</th> <th>5</th> <th>2</th> <th>1</th>");
+	var th = $("<th>Employee</th> <th>Salary ILS</th><th>200 ILS</th> <th>100 ILS</th> <th>50 ILS</th> <th>20 ILS</th> <th>10 ILS</th> <th>5 ILS</th> <th>2 ILS</th> <th>1 ILS</th>");
 	tr.append(th);
 
 	var nms, ss=0, t200s=0, t100s=0, t50s=0, t20s=0, t10s=0, t5s=0, t2s=0, t1s=0;
