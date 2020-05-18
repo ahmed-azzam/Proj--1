@@ -5,6 +5,7 @@ var reset =$("#reset");
 var view = $("#view");
 var nameLi=$("#first-view");
 var tbl = $("#tbl");
+var clD = $("#clD");
 
 
 
@@ -85,7 +86,7 @@ reset.click (function(){
 var counter =0;
 
 view.click (function(){
-
+	tbl.show();
 
 	
 	if (counter>0){
@@ -148,5 +149,12 @@ view.click (function(){
 	counter++;
 });
 
+clD.click(function(){
+	data=[];
+	nameLi[0].textContent="";
+	tbl.hide();
+
+console.log (nameLi);
+});
 //commint
 //commint
