@@ -1,5 +1,4 @@
 
-var data =[];
 var stor = $("#stor")
 var reset =$("#reset");
 var view = $("#view");
@@ -147,4 +146,5 @@ view.click (function(){
 	//console.log(tbl)
 	counter++;
 });
+
 
